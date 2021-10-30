@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: #FFF;
-    box-shadow: 0px 0px 5px #CCC;
+    /* box-shadow: 0px 0px 5px #CCC; */
     padding: 20px;
     margin-top: -40px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 `;
 
 export const MonthArea = styled.div`

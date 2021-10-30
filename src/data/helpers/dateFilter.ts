@@ -2,7 +2,6 @@ import { Item } from '../../types/item';
 
 export const getCurrentMonth = () => {
     let now = new Date();
-    console.log("now data", now)
 
     return `${now.getFullYear()}-${now.getMonth()+1}`
 }
